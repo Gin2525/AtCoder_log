@@ -1,16 +1,14 @@
-#include<iostream>
-#include<vector>
-#include<string>
+#include <bits/stdc++.h>
+#define rep(i, n) for(int i = 0; i < (n); ++i)
 using namespace std;
+using ll = long long;
 
-int main(){
-    string S;
-    cin >> S;
-
-    if(S[0]==S[1]&& S[1]==S[2]){
-        cout << "No"<< endl;
-        return 0;
+int main() {
+    string s;
+    cin >> s;
+    if(s[0] == s[1] && s[1] == s[2]) {
+        cout << "No" << endl;
+    } else {
+        cout << "Yes" << endl;
     }
-    cout << "Yes" << endl;
-    return 0;
 }
